@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D741B95728D05CB1005051B6 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D741B95628D05CB1005051B6 /* MovieCell.swift */; };
+		D741B95A28D06150005051B6 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = D741B95928D06150005051B6 /* AlamofireImage */; };
 		D75594E328D04A210087EABD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75594E228D04A210087EABD /* AppDelegate.swift */; };
 		D75594E528D04A210087EABD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75594E428D04A210087EABD /* SceneDelegate.swift */; };
 		D75594E728D04A210087EABD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75594E628D04A210087EABD /* ViewController.swift */; };
 		D75594EA28D04A210087EABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75594E828D04A210087EABD /* Main.storyboard */; };
 		D75594EC28D04A240087EABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75594EB28D04A240087EABD /* Assets.xcassets */; };
 		D75594EF28D04A240087EABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75594ED28D04A240087EABD /* LaunchScreen.storyboard */; };
+		D75594F728D053010087EABD /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75594F628D053010087EABD /* MoviesViewController.swift */; };
+		D7A7A1B028D5767200F08F42 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D7A7A1AF28D5767200F08F42 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D741B95628D05CB1005051B6 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		D75594DF28D04A210087EABD /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75594E228D04A210087EABD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D75594E428D04A210087EABD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,8 @@
 		D75594EB28D04A240087EABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D75594EE28D04A240087EABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D75594F028D04A240087EABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D75594F628D053010087EABD /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		D7A7A1AF28D5767200F08F42 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D741B95A28D06150005051B6 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +48,7 @@
 		D75594D628D04A210087EABD = {
 			isa = PBXGroup;
 			children = (
+				D7A7A1AF28D5767200F08F42 /* README.md */,
 				D75594E128D04A210087EABD /* Flix */,
 				D75594E028D04A210087EABD /* Products */,
 			);
@@ -59,6 +68,8 @@
 				D75594E228D04A210087EABD /* AppDelegate.swift */,
 				D75594E428D04A210087EABD /* SceneDelegate.swift */,
 				D75594E628D04A210087EABD /* ViewController.swift */,
+				D75594F628D053010087EABD /* MoviesViewController.swift */,
+				D741B95628D05CB1005051B6 /* MovieCell.swift */,
 				D75594E828D04A210087EABD /* Main.storyboard */,
 				D75594EB28D04A240087EABD /* Assets.xcassets */,
 				D75594ED28D04A240087EABD /* LaunchScreen.storyboard */,
@@ -83,6 +94,9 @@
 			dependencies = (
 			);
 			name = Flix;
+			packageProductDependencies = (
+				D741B95928D06150005051B6 /* AlamofireImage */,
+			);
 			productName = Flix;
 			productReference = D75594DF28D04A210087EABD /* Flix.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,9 @@
 				Base,
 			);
 			mainGroup = D75594D628D04A210087EABD;
+			packageReferences = (
+				D741B95828D06150005051B6 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = D75594E028D04A210087EABD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +144,7 @@
 			files = (
 				D75594EF28D04A240087EABD /* LaunchScreen.storyboard in Resources */,
 				D75594EC28D04A240087EABD /* Assets.xcassets in Resources */,
+				D7A7A1B028D5767200F08F42 /* README.md in Resources */,
 				D75594EA28D04A210087EABD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +159,8 @@
 				D75594E728D04A210087EABD /* ViewController.swift in Sources */,
 				D75594E328D04A210087EABD /* AppDelegate.swift in Sources */,
 				D75594E528D04A210087EABD /* SceneDelegate.swift in Sources */,
+				D741B95728D05CB1005051B6 /* MovieCell.swift in Sources */,
+				D75594F728D053010087EABD /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +378,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D741B95828D06150005051B6 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D741B95928D06150005051B6 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D741B95828D06150005051B6 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D75594D728D04A210087EABD /* Project object */;
 }
